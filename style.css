@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+
+}
+
+.label-form-text {
+    border: 3px solid blue
+}
+
+.background {
+    /* background-image: url('./assets/halie-west-25xggax4bSA-unsplash.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    width: 40%;
+    height:130vh;
+    border: 3px solid red;
+}
+
+.submission {
+    border: 3px dotted yellow;
+}
+
+.info-text {
+    border: 3px solid black;
+    align-content: center;
+}
+
+.form{
+    border: 3px solid green;
+    position: absolute;
+    right: 0;
+    width: 60%;
+    height: 100vh;
+}
+
+.credits {
+    border: 3px solid black;
+}
+

@@ -4,12 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-Up Form</title>
-    <div class="header">
-        <h1>Sign-Up Form</h1>
-    </div>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <!-- form body -->
+  <div>
+    <body>
+    <div class="background">
+    </div>
+    <br>
+    <ul class="wrapper">
+      <div>
+      <div class="info-text">
+        <p>
+            This is not a real online service! You know you need something
+            <br>
+            like this in your life to help you realize your deepest dreams.
+            <br>
+            <br>
+            Sign Up <em>NOW</em> to get started!
+            <br>
+            You <em>know</em> you want to.
+            <br>
+        </p>
+        </div>
+        <div class="label-form-text">
+            <p>
+                Let's do this!
+            </p>
+            <br>
+        </div>
+        <table class="form">
+            <tr>
+                <td>
+                <!-- first name text field-->
+                <label for="fName">First Name</label><br>
+                <input type="text" class="nameInput" name="firstName"
+                placeholder="Enter your first name" required>
+            </td>
+            <td>
+                <!-- last name text field-->
+          <label for="lName">Last Name</label><br>
+          <input type="text" class="nameInput" name="lastName"
+          placeholder="Enter your last name" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!-- email text field-->
+                <label for="email">Email</label><br>
+                <input type="text" class="emailInput" name="emailAddress"
+                placeholder="Enter your e-mail address" required>
+            </td>
+            <td>
+          <!-- phone number text field-->
+          <label for="phNumber">Phone Number</label><br>
+          <input type="text" class="phoneInput" name="phoneNumber"
+          placeholder="Enter your phone number" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+          <!-- password text field-->
+          <label for="pWord">Password</label><br>
+          <input type="text" class="password" name="passWord"
+          placeholder="Enter your password" required>
+            </td>
+            <td>
+          <!-- confirm password text field-->
+          <label for="pWord">Confirm Password</label><br>
+          <input type="text" class="password" name="passWord"
+          placeholder="Confirm your password" required>
+            </td>
+        </tr>
+    </table>
+    <div class="submission">
+    <input type="submit" value="Create Account">
+        <p>Already have an account? 
+            <a href="https://www.google.com/">Log in</a>
+        </p>
+    </div>
+    </body>
 </body>
+
+<footer>
+    <div class="credits">
+        <p>
+            Author: Michael Schroeder
+        </p>
+    </div>
+</footer>
+<noscript>You need to enable Javascript to view the full site.</noscript>
+<script src="app.js"></script>
 </html>
