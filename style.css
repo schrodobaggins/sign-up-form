@@ -5,6 +5,11 @@
 
 body{
     height: 100%;
+    /* border: 3px solid red; */
+}
+
+.wrapper-text {
+    /* border: 3px solid red; */
 }
 
 .label-form-text {
@@ -27,8 +32,34 @@ body{
     /* border: 3px solid red; */
 }
 
-.logo-wrapper {
+#logo-icon {
+    position: absolute;
+    width:auto;
+    height:100%;
+    object-fit: cover;
+    /* border: 3px solid green; */
+}
 
+.logo-img {
+    position: absolute;
+    top: 22%;
+    right: 82%;
+    width: 10%;
+    max-width: 50%;
+    max-height: 50%;
+    /* border: 3px solid red; */
+}
+
+#logo-border {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    width: 100%;
+    height: 15%;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .logo-name {
@@ -37,6 +68,7 @@ body{
     top: 25%;
     right: 19%;
     width: 60%;
+    font-family: 'Quintessential', cursive;
     color: rgb(255, 255, 255);
 }
 
@@ -58,14 +90,38 @@ body{
     /* border: 3px solid black; */
 }
 
+#submission-forms {
+    border: 3px solid red;
+}
+
 .form{
     position: absolute;
     right: 0;
     top: 45%;
     width: 60%;
-    height: 20vh;
-    font-size: 15px;
-        /* border: 3px solid green; */
+    height: 27vh;
+    font-size: 16px;
+    border: 3px solid green;
+}
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+.submit {
+    border: 3px solid green;
 }
 
 #container {
@@ -81,4 +137,5 @@ body{
     text-align: center;
     bottom:0;
 }
+
 
